@@ -1,8 +1,4 @@
 *.~u
-*.precompilecache
-*.compileinfo
-*.bootinfo
-*.bootinfo_guids
 *.imgcache
 *.dtmp
 *.bkp
