@@ -1,0 +1,24 @@
+<GVL>
+  <Declarations><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	Header: IFM_HMI_Version_System_Header;
+	All: SLL_IFM_IO.CR0709_ALL_OUTPUT_STATES;	
+END_VAR]]></Declarations>
+  <NetvarSettings Protocol="UDP">
+    <ListIdentifier>20</ListIdentifier>
+    <Pack>True</Pack>
+    <Checksum>True</Checksum>
+    <Acknowledge>False</Acknowledge>
+    <CyclicTransmission>True</CyclicTransmission>
+    <TransmissionOnChange>True</TransmissionOnChange>
+    <TransmissionOnEvent>False</TransmissionOnEvent>
+    <Interval>T#500ms</Interval>
+    <MinGap>T#20ms</MinGap>
+    <EventVariable>
+    </EventVariable>
+    <ProtocolSettings>
+      <ProtocolSetting Name="Broadcast Adr." Value="255.255.255.255" />
+      <ProtocolSetting Name="Port" Value="1200" />
+    </ProtocolSettings>
+  </NetvarSettings>
+</GVL>
