@@ -1,0 +1,23 @@
+<GVL>
+  <Declarations><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	Version: SLL_IFM_Version.PLC_Version;
+	System: SLL_IFM_CRXXXX.IFM_CRXXXX_System_STRUCT;
+	All_Inputs: SLL_IFM_IO.CR0709_ALL_INPUTS_DATA;
+	All_Outputs_Diag: SLL_IFM_IO.CR0709_ALL_OUTPUTS_DATA;	
+	UDP_HB_RX_STATS: UDP_RX_STATS_HB_STRUCT;	
+END_VAR]]></Declarations>
+  <NetvarSettings Protocol="UDP">
+    <ListIdentifier>1</ListIdentifier>
+    <Pack>True</Pack>
+    <Checksum>True</Checksum>
+    <Acknowledge>False</Acknowledge>
+    <CyclicTransmission>True</CyclicTransmission>
+    <TransmissionOnChange>True</TransmissionOnChange>
+    <TransmissionOnEvent>False</TransmissionOnEvent>
+    <Interval>T#500ms</Interval>
+    <MinGap>T#20ms</MinGap>
+    <EventVariable>
+    </EventVariable>
+  </NetvarSettings>
+</GVL>
