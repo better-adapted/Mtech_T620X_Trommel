@@ -5,7 +5,7 @@ VAR_GLOBAL
 	All: SLL_IFM_IO.CR0709_ALL_OUTPUT_STATES;	
 END_VAR]]></Declarations>
   <NetvarSettings Protocol="UDP">
-    <ListIdentifier>11</ListIdentifier>
+    <ListIdentifier>20</ListIdentifier>
     <Pack>True</Pack>
     <Checksum>True</Checksum>
     <Acknowledge>False</Acknowledge>
@@ -17,8 +17,8 @@ END_VAR]]></Declarations>
     <EventVariable>
     </EventVariable>
     <ProtocolSettings>
-      <ProtocolSetting Name="Broadcast Adr." Value="255.255.255.255" />
       <ProtocolSetting Name="Port" Value="1200" />
+      <ProtocolSetting Name="Broadcast Adr." Value="255.255.255.255" />
     </ProtocolSettings>
   </NetvarSettings>
 </GVL>
