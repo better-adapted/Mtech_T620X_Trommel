@@ -5,7 +5,7 @@ VAR_GLOBAL
 	All: SLL_IFM_IO.CR0709_ALL_OUTPUT_STATES;	
 END_VAR]]></Declarations>
   <NetvarSettings Protocol="UDP">
-    <ListIdentifier>20</ListIdentifier>
+    <ListIdentifier>11</ListIdentifier>
     <Pack>True</Pack>
     <Checksum>True</Checksum>
     <Acknowledge>False</Acknowledge>
