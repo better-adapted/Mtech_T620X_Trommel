@@ -3,6 +3,7 @@
 VAR_GLOBAL
 	Header: IFM_HMI_Version_System_Header;
 	All: SLL_IFM_IO.CR0709_ALL_OUTPUT_STATES;	
+	App_Settings: T620X_SETTINGS;
 END_VAR]]></Declarations>
   <NetvarSettings Protocol="UDP">
     <ListIdentifier>11</ListIdentifier>
