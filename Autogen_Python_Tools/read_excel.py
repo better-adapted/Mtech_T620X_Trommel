@@ -62,10 +62,9 @@ IMPORT_Filename =""
 EXPORT_Filename =""
 
 if T620X_TEST :
-#    IO_filename = 'C:/Users/adam.watson/Mallaghan/Electrical Design - Documents/Projects Contracts/Catering Truck/2317579 Saudia Airlines Catering/2317579 CR0709 IO List CONFIG LOOKUP.xlsx'
     IO_filename = '../T620X_IO.xlsx'
 
-    SRC_EXPORT_FILE = "DT620X_HMI_CR1076_SP19p4.export.export"
+    SRC_EXPORT_FILE = "T620X_HMI_CR1076_SP19p4.export"
     SRC_EXPORT_DIR = "../CR1076_HMI/"
 
     IMPORT_Directory = SRC_EXPORT_DIR
