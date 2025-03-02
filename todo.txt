@@ -1,0 +1,45 @@
+// TODO
+//
+// set up ip address
+//
+// tracking interlocks in the PLC
+// task for CAN AUX IO and J1939
+//
+// Siren power up blip DONE
+//
+// T620X controls
+// auto cannot start if manual funcntions are active DONE
+// auto start will reset the manual selection index to 0 (PRM) DONE
+// check the auto start stop buttons in the manual mode
+// Side transfer / side conveyor issues on shutdown?
+//
+// Alarms
+// need to check each alarm through to the logger after addign the FB's
+// link up the warnings in the logger
+// Setup dump valves icon feedback to say presiren and on
+//
+// Settings
+// do we need a password to allow the manual mode? - interlock with the setup?
+// mode to bypass engien started for manual testing?
+// misc / main settings duplication when logged in
+//
+// PLC code
+// tracking PLC interlocks in the PLC with buttons and estop - hard code
+// estop hard code in plc for all outputs
+//
+// Inputs
+// pressure transduscer test all the way through
+// check the diagnostics on the io alarms
+// check the estop button feeback on each screen
+//
+// Outputs
+// Page for teh AUX CR0403 Outputs
+//
+// MIMICS
+// main mimic graphic switching?
+// side conveyor graphic not good
+// feedback of the mA for each function on the main screen
+//
+// Templates
+// hid the templates by default
+//
