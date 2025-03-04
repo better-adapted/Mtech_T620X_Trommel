@@ -2,7 +2,7 @@
   <Declarations><![CDATA[{attribute 'qualified_only'}
 VAR_GLOBAL
 	Header: IFM_HMI_Version_System_Header;
-	All: SLL_IFM_IO.CR0709_ALL_OUTPUT_STATES;	
+	All: SLL_IFM_IO.CR0709_ALL_OUTPUT_STATES;
 	App_Settings: T620X_SETTINGS;
 END_VAR]]></Declarations>
   <NetvarSettings Protocol="UDP">
@@ -18,8 +18,8 @@ END_VAR]]></Declarations>
     <EventVariable>
     </EventVariable>
     <ProtocolSettings>
-      <ProtocolSetting Name="Port" Value="1200" />
       <ProtocolSetting Name="Broadcast Adr." Value="255.255.255.255" />
+      <ProtocolSetting Name="Port" Value="1200" />
     </ProtocolSettings>
   </NetvarSettings>
 </GVL>
